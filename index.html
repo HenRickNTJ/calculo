@@ -14,11 +14,15 @@ let nome = prompt("Qual seu nome?");
 let peso = prompt(nome + ", qual o seu peso?");
 let altura = prompt(nome + ", qual sua altura?");
 let calculo = calcular(peso, altura);
-let texto = ", seu IMC é:";
+let texto = ", seu IMC apriximado é:";
 let imc = calculo .toFixed(2);
 document.write(nome.bold() + texto + imc.fontcolor("green"));
     </script> 
     </p> 
+<ul>
+<li>Abaixo de 18,5</li>   <li>abaixo do peso</li>
+
+</ul>
 </body>
 </html>
 
